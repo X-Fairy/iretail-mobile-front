@@ -1,0 +1,57 @@
+.pickerView {
+		.picker {
+			background-color: #fff;
+			width: 100%;
+			height: 464rpx;
+			position: absolute;
+			bottom: 0;
+			z-index: 23;
+
+			.column {
+				font-size: 32rpx;
+				color: #000;
+				text-align: center;
+				line-height: 68rpx;
+			}
+		}
+
+		.indicator {
+			height: 68rpx;
+			
+		}
+	}
+	.pickerBtn {
+		width: 100%;		
+		height: 96rpx;
+		line-height: 96rpx;
+		background-color: #fff;
+		font-size: 32rpx;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		bottom: 464rpx;
+		z-index: 22;
+
+		.cancer {
+			color: #737373;
+			box-sizing: border-box;
+			padding: 0 32rpx;
+		}
+
+		.specName {
+			font-size: 32rpx;
+			color: #272727;
+			width: 60%;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			word-break: break-all;
+			text-align: center;
+		}
+
+		.confirm {
+			color: #2B6962;
+			box-sizing: border-box;
+			padding: 0 32rpx;
+		}
+	}

@@ -1,0 +1,115 @@
+@import "list.scss";
+@import "prop.scss";
+view,
+scroll-view,
+button,
+input,
+textarea,
+label,
+image,
+navigator,
+swiper {
+	box-sizing: border-box;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+// 内边距
+
+.padding {
+	padding: $df;
+}
+
+// 字号
+
+.text-xs {
+	font-size: $font-xs;
+}
+
+.text-sm {
+	font-size: $font-sm;
+}
+
+.text-df {
+	font-size: $font-df;
+}
+
+.text-lg {
+	font-size: $font-lg;
+}
+
+.text-xl {
+	font-size: $font-xl;
+}
+
+.text-xxl {
+	font-size: $font-xxl;
+}
+
+.text-sl {
+	font-size: $font-sl;
+}
+
+.text-xsl {
+	font-size: $font-xsl;
+}
+
+.k-shadow {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.common-line {
+	width:100%;
+	height:10px;
+	background:rgba(246,246,248,1);
+}
+
+.place {
+	width: 100%;
+	height: 100px;
+}
+
+.text-red {
+	color: $red;
+}
+
+.bg-brown {
+	background-color: $brown;
+	color: #FFFFFF;
+}
+
+.bg-red {
+	background-color: $red;
+	color: #FFFFFF;
+}
+
+.bg-orange {
+	background-color: $orange;
+	color: #FFFFFF;
+}
+
+.btns {
+	display: flex;
+	.btn {
+		flex: 1;
+		border-radius: 0;
+	}
+}
+.hover {
+	background-color: #F2F2F2;
+}
